@@ -5,6 +5,11 @@ Projeto de construção da infraestrutura (GKE_AUTOPILOT, REDE E SUB-REDE, APLIC
 https://www.terraform.io/docs/cli/commands/plan.html
 
 
+# Observações
+
+O projeto Tem como objetivo demostrar o modelo end to end , da criação de um cluster GKE Autopilot, Criacao de uma rede e subrede para service e pods do cluster.
+O cluster Terá ip Privado, Usando NAT da gcp e o kubernetes aplicara um deploy do com em memoria Redis
+
 # Execução
 Antes da execução dos plano é preciso autenticar como o application-default da GCP.
 
